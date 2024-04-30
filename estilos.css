@@ -1,0 +1,120 @@
+.plano-casa {
+    position: relative;
+    width: 100%;
+    /* Ajusta esto según tus necesidades */
+    max-width: 736px;
+    /* Ancho de tu imagen */
+    margin: auto;
+}
+
+.disp {
+    position: absolute;
+    transition: transform 0.3s ease;
+}
+
+
+.foco-recamara {
+    width: 30px;
+    height: auto;
+    top: 350px;
+    right: 420px
+}
+
+.foco-sala {
+    width: 30px;
+    height: auto;
+    top: 500px;
+    left: 520px
+}
+
+.foco-jardin1 {
+    width: 50px;
+    height: auto;
+    top: 700px;
+    right: 380px
+}
+
+.foco-jardin2 {
+    width: 50px;
+    height: auto;
+    top: 700px;
+    left: 680px
+}
+
+.foco-jardin3 {
+    width: 50px;
+    height: auto;
+    top: 820px;
+    left: 500px
+}
+
+.foco-jardin4 {
+    width: 50px;
+    height: auto;
+    top: 600px;
+    left: 800px
+}
+
+.foco-jardin5 {
+    width: 50px;
+    height: auto;
+    top: 500px;
+    left: 920px
+}
+
+.ventilador {
+    width: 75px;
+    height: auto;
+    top: 480px;
+    left: 380px
+}
+
+.cortina1 {
+    width: 100px;
+    height: 65px;
+    top: 150px;
+    left: 380px
+}
+
+.cortina2 {
+    width: 130px;
+    height: 70px;
+    top: 300px;
+    right: 500px
+}
+
+.cortina3 {
+    width: 130px;
+    height: 70px;
+    top: 500px;
+    right: 530px
+}
+
+.alarma {
+    width: 30px;
+    height: auto;
+    top: 265px;
+    left:520px
+}
+
+.camara1 {
+    width: 40px;
+    height: auto;
+    top: 682px;
+    left: 470px;
+}
+
+.camara2 {
+    width: 40px;
+    height: auto;
+    top: 395px;
+    left: 20px;
+}
+
+.camara3 {
+    width: 40px;
+    height: auto;
+    top: 350px;
+    left: 970px;
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejecutor de Órdenes</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="bg-primary py-3">
+    <div class="container">
+      <h1 class="text-center text-white">Ejecutor de Órdenes por Voz</h1>
+    </div>
+  </header>
+
+  <main class="container mt-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Última Orden Recibida</h5>
+        <p id="last-command">Esperando orden...</p>
+      </div>
+    </div>
+
+    <div class="plano-casa">
+      <img src="img/casa.webp" alt="Plano de la Casa">
+      <!-- Dispositivos -->
+      <img src="img/foco_off.png" alt="Foco Recámara" class="disp foco-recamara">
+      <img src="img/foco_off.png" alt="Foco Sala" class="disp foco-sala">
+      <img src="img/foco-jardin-off.png" alt="Foco jardin1" class="disp foco-jardin1">
+      <img src="img/foco-jardin-off.png" alt="Foco jardin2" class="disp foco-jardin2">
+      <img src="img/foco-jardin-off.png" alt="Foco jardin3" class="disp foco-jardin3">
+      <img src="img/foco-jardin-off.png" alt="Foco jardin4" class="disp foco-jardin4">
+      <img src="img/foco-jardin-off.png" alt="Foco jardin5" class="disp foco-jardin5">
+      <img src="img/ventilador-off.png" alt="Ventilador" class="disp ventilador">
+      <img src="img/cortina-abierta.png" alt="Cortina1" class="disp cortina1">
+      <img src="img/cortina-abierta.png" alt="Cortina2" class="disp cortina2">
+      <img src="img/cortina-abierta.png" alt="Cortina3" class="disp cortina3">
+      <img src="img/alarma-off.png" alt="Alarma" class="disp alarma">
+      <img src="img/camara-off.png" alt="Camara1" class="disp camara1">
+      <img src="img/camara-off.png" alt="Camara2" class="disp camara2">
+      <img src="img/camara-off.png" alt="Camara3" class="disp camara3">
+      <!-- Repite para cada dispositivo con su clase y posición correspondiente -->
+    </div>
+
+  </main>
+
+  
+
+  <footer class="bg-light py-3 text-center fixed-bottom">
+    <div class="container">
+      <span class="text-muted">Todos los derechos reservados &copy; 2024</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
